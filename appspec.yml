@@ -1,9 +1,7 @@
 version: 0.0
 os: linux
 files:
-  - source: /build/
-    destination: /var/www/html
-  - source: /scripts/
+  - source: /
     destination: /var/www/html
 hooks:
   ApplicationStop:
